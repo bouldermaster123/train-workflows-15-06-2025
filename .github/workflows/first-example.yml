@@ -9,6 +9,9 @@ jobs:
 
             - name: Step 2
               run: echo "My second job"
-              
+
             - name: last test
               run: ls
+            
+            - name: cat test
+              run: cat README.md
