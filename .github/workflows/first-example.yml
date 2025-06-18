@@ -4,8 +4,8 @@ jobs:
     first_job:
         runs-on: ubuntu-latest
         steps:
-            - name: chceckout
-              run: actions/checkout@v4
+            - name: checckout
+              uses: actions/checkout@v4
 
             - name: Step 1
               run: echo "My first job"
