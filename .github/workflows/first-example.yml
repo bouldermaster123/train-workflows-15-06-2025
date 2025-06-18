@@ -1,0 +1,14 @@
+name: example
+on: push
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Step 1
+              run: echo "My first job"
+
+            - name: Step 2
+              run: echo "My second job"
+              
+            - name: last test
+              run: ls
